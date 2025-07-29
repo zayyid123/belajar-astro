@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-export const About = () => {
+const About = () => {
   const [title, settitle] = useState('About Page')
   return (
     <div style={{
@@ -14,3 +14,5 @@ export const About = () => {
     </div>
   )
 }
+
+export default About
