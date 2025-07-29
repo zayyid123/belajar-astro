@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 
 const About = () => {
-  const [title, settitle] = useState('About Page')
+  const [title, settitle] = useState('React Page')
   return (
     <div style={{
       width: "100%",
@@ -9,6 +9,7 @@ const About = () => {
       display: "flex",
       justifyContent: "center",
       alignItems: "center",
+      backgroundColor: "#32a2fdff",
     }}>
       {title}
     </div>

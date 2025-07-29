@@ -7,7 +7,7 @@
 <script setup lang="ts">
 import { ref } from 'vue';
 
-const title = ref<string>('FAQ Component');
+const title = ref<string>('Vue.js Page');
 </script>
 
 <style scoped>
@@ -17,5 +17,6 @@ const title = ref<string>('FAQ Component');
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: rgb(14, 103, 55);
 }
 </style>
