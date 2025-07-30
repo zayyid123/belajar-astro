@@ -18,5 +18,8 @@ const title = ref<string>('Vue.js Page');
     justify-content: center;
     align-items: center;
     background-color: rgb(14, 103, 55);
+    color: white;
+	font-size: 2rem;
+	font-weight: bold;
 }
 </style>

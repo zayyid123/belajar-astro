@@ -10,6 +10,9 @@ const About = () => {
       justifyContent: "center",
       alignItems: "center",
       backgroundColor: "#32a2fdff",
+      color: "white",
+      fontSize: "2rem",
+      fontWeight: "bold",
     }}>
       {title}
     </div>
